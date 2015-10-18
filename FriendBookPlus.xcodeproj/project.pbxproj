@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		438B20181BD2E69100D3B192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438B20171BD2E69100D3B192 /* AppDelegate.swift */; };
-		438B201A1BD2E69100D3B192 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438B20191BD2E69100D3B192 /* ViewController.swift */; };
+		438B201A1BD2E69100D3B192 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438B20191BD2E69100D3B192 /* FriendListViewController.swift */; };
 		438B201D1BD2E69100D3B192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438B201B1BD2E69100D3B192 /* Main.storyboard */; };
 		438B201F1BD2E69100D3B192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438B201E1BD2E69100D3B192 /* Assets.xcassets */; };
 		438B20221BD2E69100D3B192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438B20201BD2E69100D3B192 /* LaunchScreen.storyboard */; };
+		438B202A1BD2EC3200D3B192 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438B20291BD2EC3200D3B192 /* FriendDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		438B202C1BD2EF5200D3B192 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438B202B1BD2EF5200D3B192 /* Friend.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		438B20141BD2E69000D3B192 /* FriendBookPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendBookPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		438B20171BD2E69100D3B192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		438B20191BD2E69100D3B192 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		438B20191BD2E69100D3B192 /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
 		438B201C1BD2E69100D3B192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		438B201E1BD2E69100D3B192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		438B20211BD2E69100D3B192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		438B20231BD2E69100D3B192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438B20291BD2EC3200D3B192 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
+		438B202B1BD2EF5200D3B192 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				438B20171BD2E69100D3B192 /* AppDelegate.swift */,
-				438B20191BD2E69100D3B192 /* ViewController.swift */,
+				438B20191BD2E69100D3B192 /* FriendListViewController.swift */,
+				438B20291BD2EC3200D3B192 /* FriendDetailViewController.swift */,
+				438B202B1BD2EF5200D3B192 /* Friend.swift */,
 				438B201B1BD2E69100D3B192 /* Main.storyboard */,
 				438B201E1BD2E69100D3B192 /* Assets.xcassets */,
 				438B20201BD2E69100D3B192 /* LaunchScreen.storyboard */,
@@ -134,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				438B201A1BD2E69100D3B192 /* ViewController.swift in Sources */,
+				438B201A1BD2E69100D3B192 /* FriendListViewController.swift in Sources */,
 				438B20181BD2E69100D3B192 /* AppDelegate.swift in Sources */,
+				438B202A1BD2EC3200D3B192 /* FriendDetailViewController.swift in Sources */,
+				438B202C1BD2EF5200D3B192 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
